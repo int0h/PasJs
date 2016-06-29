@@ -1,0 +1,731 @@
+{
+    "properties": {
+        "clientHeight": 740,
+        "clientWidth": 1584,
+        "label": "Автомат по продаже газет",
+        "borderStyle": 2,
+        "borderIcons": 7,
+        "defaultMonitor": 3,
+        "cursor": -2,
+        "visible": true,
+        "w": 1600,
+        "h": 778,
+        "clientW": 1584,
+        "clientH": 740,
+        "id": "id_44d6db"
+    },
+    "className": "Form",
+    "children": [
+        {
+            "properties": {
+                "label": "Автомат",
+                "cursor": -2,
+                "x": 270,
+                "y": 10,
+                "w": 230,
+                "h": 290,
+                "clientW": 230,
+                "clientH": 290,
+                "id": "id_6a6183"
+            },
+            "className": "GroupBox",
+            "children": [
+                {
+                    "properties": {
+                        "label": "Деньги: 0 руб.",
+                        "cursor": -2,
+                        "x": 20,
+                        "y": 30,
+                        "w": 75,
+                        "h": 13,
+                        "clientW": 75,
+                        "clientH": 13,
+                        "focused": false,
+                        "id": "moneyLabel"
+                    },
+                    "className": "Label",
+                    "children": []
+                },
+                {
+                    "properties": {
+                        "orientation": 0,
+                        "state": 0,
+                        "style": 0,
+                        "cursor": -2,
+                        "x": 20,
+                        "y": 70,
+                        "w": 200,
+                        "h": 17,
+                        "clientW": 200,
+                        "clientH": 17,
+                        "tabOrder": 0,
+                        "id": "moneySpace"
+                    },
+                    "className": "ProgressBar",
+                    "children": []
+                },
+                {
+                    "properties": {
+                        "label": "Объем купироприемника",
+                        "cursor": -2,
+                        "x": 20,
+                        "y": 50,
+                        "w": 126,
+                        "h": 13,
+                        "clientW": 126,
+                        "clientH": 13,
+                        "id": "id_375125"
+                    },
+                    "className": "Label",
+                    "children": []
+                },
+                {
+                    "properties": {
+                        "label": "Газеты",
+                        "cursor": -2,
+                        "x": 10,
+                        "y": 100,
+                        "w": 220,
+                        "h": 180,
+                        "clientW": 220,
+                        "clientH": 180,
+                        "id": "id_5d906"
+                    },
+                    "className": "GroupBox",
+                    "children": [
+                        {
+                            "properties": {
+                                "label": "\"Комсомольская правда\":",
+                                "cursor": -2,
+                                "x": 10,
+                                "y": 20,
+                                "w": 129,
+                                "h": 20,
+                                "clientW": 129,
+                                "clientH": 20,
+                                "id": "id_905ecb"
+                            },
+                            "className": "Label",
+                            "children": []
+                        },
+                        {
+                            "properties": {
+                                "cursor": -2,
+                                "x": 150,
+                                "y": 20,
+                                "w": 40,
+                                "h": 21,
+                                "clientW": 36,
+                                "clientH": 17,
+                                "tabOrder": 0,
+                                "readOnly": true,
+                                "id": "kpCount"
+                            },
+                            "className": "Edit",
+                            "children": []
+                        },
+                        {
+                            "properties": {
+                                "label": "+1",
+                                "cursor": -2,
+                                "x": 10,
+                                "y": 40,
+                                "w": 30,
+                                "h": 25,
+                                "clientW": 30,
+                                "clientH": 25,
+                                "tabOrder": 1,
+                                "id": "kp_p1"
+                            },
+                            "className": "Button",
+                            "children": []
+                        },
+                        {
+                            "properties": {
+                                "label": "+3",
+                                "cursor": -2,
+                                "x": 50,
+                                "y": 40,
+                                "w": 30,
+                                "h": 25,
+                                "clientW": 30,
+                                "clientH": 25,
+                                "tabOrder": 2,
+                                "id": "kp_p3"
+                            },
+                            "className": "Button",
+                            "children": []
+                        },
+                        {
+                            "properties": {
+                                "label": "+5",
+                                "cursor": -2,
+                                "x": 90,
+                                "y": 40,
+                                "w": 30,
+                                "h": 25,
+                                "clientW": 30,
+                                "clientH": 25,
+                                "tabOrder": 3,
+                                "id": "kp_p5"
+                            },
+                            "className": "Button",
+                            "children": []
+                        },
+                        {
+                            "properties": {
+                                "label": "\"Из рук в руки\":",
+                                "cursor": -2,
+                                "x": 10,
+                                "y": 70,
+                                "w": 81,
+                                "h": 13,
+                                "clientW": 81,
+                                "clientH": 13,
+                                "id": "id_28b8d8"
+                            },
+                            "className": "Label",
+                            "children": []
+                        },
+                        {
+                            "properties": {
+                                "cursor": -2,
+                                "x": 150,
+                                "y": 70,
+                                "w": 40,
+                                "h": 21,
+                                "clientW": 36,
+                                "clientH": 17,
+                                "tabOrder": 4,
+                                "readOnly": true,
+                                "id": "irrCount"
+                            },
+                            "className": "Edit",
+                            "children": []
+                        },
+                        {
+                            "properties": {
+                                "label": "+1",
+                                "cursor": -2,
+                                "x": 10,
+                                "y": 90,
+                                "w": 30,
+                                "h": 25,
+                                "clientW": 30,
+                                "clientH": 25,
+                                "tabOrder": 5,
+                                "id": "irr_p1"
+                            },
+                            "className": "Button",
+                            "children": []
+                        },
+                        {
+                            "properties": {
+                                "label": "+3",
+                                "cursor": -2,
+                                "x": 50,
+                                "y": 90,
+                                "w": 30,
+                                "h": 25,
+                                "clientW": 30,
+                                "clientH": 25,
+                                "tabOrder": 6,
+                                "id": "irr_p3"
+                            },
+                            "className": "Button",
+                            "children": []
+                        },
+                        {
+                            "properties": {
+                                "label": "+5",
+                                "cursor": -2,
+                                "x": 90,
+                                "y": 90,
+                                "w": 30,
+                                "h": 25,
+                                "clientW": 30,
+                                "clientH": 25,
+                                "tabOrder": 7,
+                                "id": "irr_p5"
+                            },
+                            "className": "Button",
+                            "children": []
+                        },
+                        {
+                            "properties": {
+                                "orientation": 0,
+                                "state": 0,
+                                "style": 0,
+                                "cursor": -2,
+                                "x": 10,
+                                "y": 150,
+                                "w": 200,
+                                "h": 20,
+                                "clientW": 200,
+                                "clientH": 20,
+                                "tabOrder": 8,
+                                "id": "npSpace"
+                            },
+                            "className": "ProgressBar",
+                            "children": []
+                        },
+                        {
+                            "properties": {
+                                "label": "Занятый объем:",
+                                "cursor": -2,
+                                "x": 10,
+                                "y": 130,
+                                "w": 82,
+                                "h": 13,
+                                "clientW": 82,
+                                "clientH": 13,
+                                "id": "id_c972c3"
+                            },
+                            "className": "Label",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "properties": {
+                        "label": "Забрать",
+                        "cursor": -2,
+                        "x": 150,
+                        "y": 30,
+                        "w": 70,
+                        "h": 25,
+                        "clientW": 70,
+                        "clientH": 25,
+                        "tabOrder": 2,
+                        "id": "takeMoney"
+                    },
+                    "className": "Button",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "properties": {
+                "label": "Покупатели",
+                "cursor": -2,
+                "x": 10,
+                "y": 10,
+                "w": 240,
+                "h": 220,
+                "clientW": 240,
+                "clientH": 220,
+                "id": "id_92f68c"
+            },
+            "className": "GroupBox",
+            "children": [
+                {
+                    "properties": {
+                        "scrollBars": 0,
+                        "cursor": -2,
+                        "x": 10,
+                        "y": 20,
+                        "w": 220,
+                        "h": 89,
+                        "clientW": 216,
+                        "clientH": 85,
+                        "tabOrder": 0,
+                        "lineCount": 0,
+                        "wantTabs": false,
+                        "readOnly": true,
+                        "id": "customerState"
+                    },
+                    "className": "Memo",
+                    "children": []
+                },
+                {
+                    "properties": {
+                        "orientation": 0,
+                        "state": 0,
+                        "style": 0,
+                        "cursor": -2,
+                        "x": 10,
+                        "y": 120,
+                        "w": 220,
+                        "h": 17,
+                        "clientW": 220,
+                        "clientH": 17,
+                        "tabOrder": 1,
+                        "id": "customerProgress"
+                    },
+                    "className": "ProgressBar",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "properties": {
+                "label": "Автомат",
+                "cursor": -2,
+                "x": 270,
+                "y": 10,
+                "w": 230,
+                "h": 290,
+                "clientW": 230,
+                "clientH": 290,
+                "id": "id_6a6183"
+            },
+            "className": "GroupBox",
+            "children": [
+                {
+                    "properties": {
+                        "label": "Деньги: 0 руб.",
+                        "cursor": -2,
+                        "x": 20,
+                        "y": 30,
+                        "w": 75,
+                        "h": 13,
+                        "clientW": 75,
+                        "clientH": 13,
+                        "focused": false,
+                        "id": "moneyLabel"
+                    },
+                    "className": "Label",
+                    "children": []
+                },
+                {
+                    "properties": {
+                        "orientation": 0,
+                        "state": 0,
+                        "style": 0,
+                        "cursor": -2,
+                        "x": 20,
+                        "y": 70,
+                        "w": 200,
+                        "h": 17,
+                        "clientW": 200,
+                        "clientH": 17,
+                        "tabOrder": 0,
+                        "id": "moneySpace"
+                    },
+                    "className": "ProgressBar",
+                    "children": []
+                },
+                {
+                    "properties": {
+                        "label": "Денег в купюроприемнике",
+                        "cursor": -2,
+                        "x": 20,
+                        "y": 50,
+                        "w": 136,
+                        "h": 13,
+                        "clientW": 136,
+                        "clientH": 13,
+                        "id": "id_375125"
+                    },
+                    "className": "Label",
+                    "children": []
+                },
+                {
+                    "properties": {
+                        "label": "Газеты",
+                        "cursor": -2,
+                        "x": 10,
+                        "y": 100,
+                        "w": 220,
+                        "h": 180,
+                        "clientW": 220,
+                        "clientH": 180,
+                        "id": "id_5d906"
+                    },
+                    "className": "GroupBox",
+                    "children": [
+                        {
+                            "properties": {
+                                "label": "\"Комсомольская правда\":",
+                                "cursor": -2,
+                                "x": 10,
+                                "y": 20,
+                                "w": 129,
+                                "h": 20,
+                                "clientW": 129,
+                                "clientH": 20,
+                                "id": "id_905ecb"
+                            },
+                            "className": "Label",
+                            "children": []
+                        },
+                        {
+                            "properties": {
+                                "cursor": -2,
+                                "x": 150,
+                                "y": 20,
+                                "w": 40,
+                                "h": 21,
+                                "clientW": 36,
+                                "clientH": 17,
+                                "tabOrder": 0,
+                                "readOnly": true,
+                                "id": "kpCount"
+                            },
+                            "className": "Edit",
+                            "children": []
+                        },
+                        {
+                            "properties": {
+                                "label": "+1",
+                                "cursor": -2,
+                                "x": 10,
+                                "y": 40,
+                                "w": 30,
+                                "h": 25,
+                                "clientW": 30,
+                                "clientH": 25,
+                                "tabOrder": 1,
+                                "id": "kp_p1"
+                            },
+                            "className": "Button",
+                            "children": []
+                        },
+                        {
+                            "properties": {
+                                "label": "+3",
+                                "cursor": -2,
+                                "x": 50,
+                                "y": 40,
+                                "w": 30,
+                                "h": 25,
+                                "clientW": 30,
+                                "clientH": 25,
+                                "tabOrder": 2,
+                                "id": "kp_p3"
+                            },
+                            "className": "Button",
+                            "children": []
+                        },
+                        {
+                            "properties": {
+                                "label": "+5",
+                                "cursor": -2,
+                                "x": 90,
+                                "y": 40,
+                                "w": 30,
+                                "h": 25,
+                                "clientW": 30,
+                                "clientH": 25,
+                                "tabOrder": 3,
+                                "id": "kp_p5"
+                            },
+                            "className": "Button",
+                            "children": []
+                        },
+                        {
+                            "properties": {
+                                "label": "\"Из рук в руки\":",
+                                "cursor": -2,
+                                "x": 10,
+                                "y": 70,
+                                "w": 81,
+                                "h": 13,
+                                "clientW": 81,
+                                "clientH": 13,
+                                "id": "id_28b8d8"
+                            },
+                            "className": "Label",
+                            "children": []
+                        },
+                        {
+                            "properties": {
+                                "cursor": -2,
+                                "x": 150,
+                                "y": 70,
+                                "w": 40,
+                                "h": 21,
+                                "clientW": 36,
+                                "clientH": 17,
+                                "tabOrder": 4,
+                                "readOnly": true,
+                                "id": "irrCount"
+                            },
+                            "className": "Edit",
+                            "children": []
+                        },
+                        {
+                            "properties": {
+                                "label": "+1",
+                                "cursor": -2,
+                                "x": 10,
+                                "y": 90,
+                                "w": 30,
+                                "h": 25,
+                                "clientW": 30,
+                                "clientH": 25,
+                                "tabOrder": 5,
+                                "id": "irr_p1"
+                            },
+                            "className": "Button",
+                            "children": []
+                        },
+                        {
+                            "properties": {
+                                "label": "+3",
+                                "cursor": -2,
+                                "x": 50,
+                                "y": 90,
+                                "w": 30,
+                                "h": 25,
+                                "clientW": 30,
+                                "clientH": 25,
+                                "tabOrder": 6,
+                                "id": "irr_p3"
+                            },
+                            "className": "Button",
+                            "children": []
+                        },
+                        {
+                            "properties": {
+                                "label": "+5",
+                                "cursor": -2,
+                                "x": 90,
+                                "y": 90,
+                                "w": 30,
+                                "h": 25,
+                                "clientW": 30,
+                                "clientH": 25,
+                                "tabOrder": 7,
+                                "id": "irr_p5"
+                            },
+                            "className": "Button",
+                            "children": []
+                        },
+                        {
+                            "properties": {
+                                "orientation": 0,
+                                "state": 0,
+                                "style": 0,
+                                "cursor": -2,
+                                "x": 10,
+                                "y": 150,
+                                "w": 200,
+                                "h": 20,
+                                "clientW": 200,
+                                "clientH": 20,
+                                "tabOrder": 8,
+                                "id": "npSpace"
+                            },
+                            "className": "ProgressBar",
+                            "children": []
+                        },
+                        {
+                            "properties": {
+                                "label": "Занятый объем:",
+                                "cursor": -2,
+                                "x": 10,
+                                "y": 130,
+                                "w": 82,
+                                "h": 13,
+                                "clientW": 82,
+                                "clientH": 13,
+                                "id": "id_c972c3"
+                            },
+                            "className": "Label",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "properties": {
+                        "label": "Забрать",
+                        "cursor": -2,
+                        "x": 160,
+                        "y": 20,
+                        "w": 70,
+                        "h": 25,
+                        "clientW": 70,
+                        "clientH": 25,
+                        "tabOrder": 2,
+                        "id": "takeMoney"
+                    },
+                    "className": "Button",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "properties": {
+                "label": "Счет",
+                "cursor": -2,
+                "x": 520,
+                "y": 10,
+                "w": 290,
+                "h": 290,
+                "clientW": 290,
+                "clientH": 290,
+                "id": "id_208c4"
+            },
+            "className": "GroupBox",
+            "children": [
+                {
+                    "properties": {
+                        "label": "Баланс: 1000 руб.",
+                        "cursor": -2,
+                        "x": 10,
+                        "y": 20,
+                        "w": 91,
+                        "h": 13,
+                        "clientW": 91,
+                        "clientH": 13,
+                        "id": "accountLabel"
+                    },
+                    "className": "Label",
+                    "children": []
+                },
+                {
+                    "properties": {
+                        "cursor": -2,
+                        "x": 10,
+                        "y": 40,
+                        "w": 270,
+                        "h": 200,
+                        "clientW": 266,
+                        "clientH": 196,
+                        "tabOrder": 0,
+                        "id": "log"
+                    },
+                    "className": "ListBox",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "properties": {
+                "label": "Скорость",
+                "cursor": -2,
+                "x": 10,
+                "y": 230,
+                "w": 240,
+                "h": 70,
+                "clientW": 240,
+                "clientH": 70,
+                "id": "id_7ae36d"
+            },
+            "className": "GroupBox",
+            "children": [
+                {
+                    "properties": {
+                        "value": 8,
+                        "orientation": 0,
+                        "tickStyle": 1,
+                        "tickMarks": 0,
+                        "positionToolTip": 0,
+                        "cursor": -2,
+                        "x": 10,
+                        "y": 25,
+                        "w": 220,
+                        "h": 45,
+                        "clientW": 220,
+                        "clientH": 45,
+                        "tabOrder": 0,
+                        "id": "id_34b96e"
+                    },
+                    "className": "TrackBar",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

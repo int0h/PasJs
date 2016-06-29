@@ -1,0 +1,36 @@
++ listable
+	+ selected
+* require resolve
+	* node modules
+		- better dir require
+	- do not cash if broken
+- use https://www.npmjs.com/package/enum
++ refactor mixins.. again
+	? more meta data
++ timers
+	+ full compability
+* layouts
+* form designer
+	+ palette
+	+ console
+	+ form
+	* inspector
+		- enum edits
+- bindings
+	+ focused
+	+ scrollToLine
+	+ handle
+	+ sendMsg
+- better design mode
+- rethink class system
+	- use prototypes
+
+- move id storage to Context
+* complex/nested components
+* toJson
+- cairo binding
+- svg support
+- dll require (http://delphi.about.com/od/windowsshellapi/a/delphi-dll-loading-static-dynamic.htm)
+- sockets
+- debug
+- openGL sprites

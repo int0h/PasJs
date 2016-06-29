@@ -1,0 +1,71 @@
+{
+    "className": "Form",
+    "options": {
+        "id": "mainForm",
+        "x": 100,
+        "y": 100,
+        "w": 796,
+        "h": 542,
+        "enabled": true,
+        "hint": "",
+        "cursor": 0,
+        "align": 0,
+        "opacity": 1,
+        "autoScroll": false,
+        "autoSize": false,
+        "clientHeight": 504,
+        "clientWidth": 780,
+        "borderStyle": 2,
+        "borderIcons": 7,
+        "formStyle": 0,
+        "defaultMonitor": 3,
+        "mainForm": true
+    },
+    "parentId": null,
+    "children": [
+		{
+			"className": "Button",
+			"options": {
+				"id": "evalBtn",
+				"label": "eval",
+				"y": 120,
+				"x": 20
+			},
+			"parentId": "mainForm"
+		},
+		{
+			"className": "Memo",
+			"options": {
+				"id": "memo",				
+				"value": "",
+				"y": 0,
+				"x": 150,
+				"w": 300,
+				"h": 400
+			},
+			"parentId": "mainForm"		
+		},
+		{
+			"className": "Edit",
+			"options": {
+				"id": "edit",
+				"y": 150,
+				"x": 20,
+				"old": "a = new cc.PaletteItem(cmpPallete, {classFn: c.Button});a.on('click', function(){this.y+= 15})",
+				"old": "a = new Console(form.mainForm)",
+				"value": "z=new Date(); setTimeout(function(){w= new Date()}, 1)"
+			},
+			"parentId": "mainForm"		
+		},
+		{
+			"className": "ListBox",
+			"options": {
+				"id": "list",
+				"items": [],
+				"y": 170,
+				"x": 20
+			},
+			"parentId": "mainForm"		
+		}
+	]
+}
